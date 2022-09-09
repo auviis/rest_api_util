@@ -15,7 +15,7 @@ int track_me(){
     params.insert({"engine","test_engine"});
     params.insert({"module","main"});
     params.insert({"build_date","2022-09-09"});
-    std::string response = RestAPIUtil::callRawAPI("http://id.oneteam.vn/api/engine/notify",params,"POST");
+    std::string response = RestAPIUtil::callRawAPI("http://[your_api_server]",params,"POST");
     //printf("response: %s\n",response.c_str());
     int status = 0;
     try {
