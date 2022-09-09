@@ -1,3 +1,7 @@
+An c++ utility net dynamic library for call API on linux.
+
+Run on debian or centos
+
 #update librest_api_util first
 
 #Debian 
