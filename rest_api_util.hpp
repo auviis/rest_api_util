@@ -9,9 +9,6 @@
 #include <curl/curl.h>
 class RestAPIUtil
 {
-        // CURLM* multi_handle;
-        // int handle_count;
-    
 public:
     RestAPIUtil();
     ~RestAPIUtil();
